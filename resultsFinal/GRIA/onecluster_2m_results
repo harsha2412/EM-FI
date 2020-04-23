@@ -1,0 +1,221 @@
+/home/harsha/PycharmProjects/APT/venv/bin/python /home/harsha/PycharmProjects/griaFix/Source/LowCal.py
+/home/harsha/PycharmProjects/APT/venv/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+  """)
+
+
+k = 128 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+ ~~~~~~~~~ GRIA ~~~~~~~~~~~~~ 
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations
+Run  0
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4581185.725406065
+Run  1
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4557376.377225621
+Run  2
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4570903.025364867
+Run  3
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4575777.458475986
+Run  4
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4549613.197366933
+Run  5
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4571545.774301922
+Run  6
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4562763.051121031
+Run  7
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4576172.424680581
+Run  8
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4556298.963504108
+Run  9
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4571277.73907134
+Run  10
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4577296.304979678
+Run  11
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4595619.617603888
+Run  12
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4530128.636154227
+Run  13
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4574152.56054397
+Run  14
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4574491.484009563
+Run  15
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4563836.349210268
+Run  16
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4591178.977466252
+Run  17
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4552369.209990135
+Run  18
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4539856.417465786
+Run  19
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4575568.636289868
+Run  20
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4566574.074776435
+Run  21
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4571806.171325927
+Run  22
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4572354.545852217
+Run  23
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4573701.994025591
+Run  24
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4566165.566088376
+Final Solution, cost = 4530128.636154227
+CREATE TABLE synthetic.pop_2000000_OneCluster_sources_GRIA_k_128_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Time for execution for k: 128 = 2361.66826708884
+
+
+k = 256 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+ ~~~~~~~~~ GRIA ~~~~~~~~~~~~~ 
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations
+Run  0
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2864384.153177076
+Run  1
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2878031.139082293
+Run  2
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2872476.1144702462
+Run  3
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2859427.928696792
+Run  4
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2872471.9035447794
+Run  5
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2854164.84152716
+Run  6
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2860435.7222151305
+Run  7
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2859707.182060626
+Run  8
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2857458.3807459534
+Run  9
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2857339.0349339987
+Run  10
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2856627.5397700937
+Run  11
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2869062.8249173784
+Run  12
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2864016.710779644
+Run  13
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2868742.2104489007
+Run  14
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2869244.109723719
+Run  15
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2860040.016816208
+Run  16
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2867978.029052708
+Run  17
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2860979.1042130403
+Run  18
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2866895.7396371397
+Run  19
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2863335.6570013585
+Run  20
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2857879.0376297464
+Run  21
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2865831.326251434
+Run  22
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2862252.4797718753
+Run  23
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2870347.0333254505
+Run  24
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 2866157.524625523
+Final Solution, cost = 2854164.84152716
+CREATE TABLE synthetic.pop_2000000_OneCluster_sources_GRIA_k_256_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Time for execution for k: 256 = 9819.699917568565
+
+
+k = 512 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+ ~~~~~~~~~ GRIA ~~~~~~~~~~~~~ 
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations
+Run  0
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 1284208.1185457574
+Run  1
+Traceback (most recent call last):
+  File "/home/harsha/PycharmProjects/griaFix/Source/LowCal.py", line 103, in <module>
+    lowCalManager = LowCalManager()
+  File "/home/harsha/PycharmProjects/griaFix/Source/LowCal.py", line 43, in __init__
+    #self.pm.runGria()
+  File "/home/harsha/PycharmProjects/griaFix/Source/PartitioningManager.py", line 147, in runGria
+    
+  File "/home/harsha/PycharmProjects/griaFix/Source/Algorithms/GRIA.py", line 225, in griaStuff
+    self.globalSwap = self.singleGlobalStep()
+  File "/home/harsha/PycharmProjects/griaFix/Source/Algorithms/GRIA.py", line 109, in singleGlobalStep
+    self.doCurrentAssignment(tempDict)
+  File "/home/harsha/PycharmProjects/griaFix/Source/Algorithms/GRIA.py", line 84, in doCurrentAssignment
+    self.currentDestinationToSourceMapping[d] = self.pickMinSource(d, sourceDict)
+  File "/home/harsha/PycharmProjects/griaFix/Source/Algorithms/GRIA.py", line 70, in pickMinSource
+    if  self.distanceMap[s][destination] < min:
+KeyboardInterrupt
+
+Process finished with exit code 1
+

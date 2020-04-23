@@ -1,0 +1,218 @@
+/home/harsha/PycharmProjects/APT/venv/bin/python /home/harsha/PycharmProjects/griaFix/Source/LowCal.py
+/home/harsha/PycharmProjects/APT/venv/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+  """)
+
+
+k = 128 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+ ~~~~~~~~~ GRIA ~~~~~~~~~~~~~ 
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_Random_destinations
+Run  0
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6481684.044288755
+Run  1
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6510351.512865829
+Run  2
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6501765.753126795
+Run  3
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6518374.922141893
+Run  4
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6504306.031189828
+Run  5
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6500304.22413593
+Run  6
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6496715.169900415
+Run  7
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6477938.4095477685
+Run  8
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6466231.940880735
+Run  9
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6512884.8155979095
+Run  10
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6521021.615432068
+Run  11
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6498973.905401373
+Run  12
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6493167.572006857
+Run  13
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6489521.740989012
+Run  14
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6502939.584118014
+Run  15
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6496143.68629818
+Run  16
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6508417.362961769
+Run  17
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6507274.520097076
+Run  18
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6518579.786922883
+Run  19
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6458059.097057829
+Run  20
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6484849.373127855
+Run  21
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6455730.767578821
+Run  22
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6486425.60079506
+Run  23
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6516745.877726765
+Run  24
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 6521388.359757469
+Final Solution, cost = 6455730.767578821
+CREATE TABLE synthetic.pop_2000000_Random_sources_GRIA_k_128_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Time for execution for k: 128 = 3117.5998439227606
+
+
+k = 256 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+ ~~~~~~~~~ GRIA ~~~~~~~~~~~~~ 
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_Random_destinations
+Run  0
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4299834.789252931
+Run  1
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4322273.901633363
+Run  2
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4316030.687893622
+Run  3
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4300852.588305448
+Run  4
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4300637.731539324
+Run  5
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4314126.0574774
+Run  6
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4316362.508700052
+Run  7
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4304997.843791181
+Run  8
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4334310.801459163
+Run  9
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4293338.062036794
+Run  10
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4307452.522996972
+Run  11
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4310084.110454318
+Run  12
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4318990.323277302
+Run  13
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4316296.225832448
+Run  14
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4316521.831460899
+Run  15
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4311398.084112338
+Run  16
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4302608.816652524
+Run  17
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4307106.844254454
+Run  18
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4315515.195073587
+Run  19
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4308086.60541736
+Run  20
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4315745.511485965
+Run  21
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4316449.646878527
+Run  22
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4328456.003874611
+Run  23
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4321581.551870492
+Run  24
+ NO IMPROVEMENT: EXTERMINATE
+ cost = 4331942.279425216
+Final Solution, cost = 4293338.062036794
+CREATE TABLE synthetic.pop_2000000_Random_sources_GRIA_k_256_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Time for execution for k: 256 = 13518.739482270284
+
+
+k = 512 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+ ~~~~~~~~~ GRIA ~~~~~~~~~~~~~ 
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_Random_destinations
+Run  0
+Traceback (most recent call last):
+  File "/home/harsha/PycharmProjects/griaFix/Source/LowCal.py", line 103, in <module>
+    lowCalManager = LowCalManager()
+  File "/home/harsha/PycharmProjects/griaFix/Source/LowCal.py", line 43, in __init__
+    #self.pm.runGria()
+  File "/home/harsha/PycharmProjects/griaFix/Source/PartitioningManager.py", line 147, in runGria
+    
+  File "/home/harsha/PycharmProjects/griaFix/Source/Algorithms/GRIA.py", line 225, in griaStuff
+    self.globalSwap = self.singleGlobalStep()
+  File "/home/harsha/PycharmProjects/griaFix/Source/Algorithms/GRIA.py", line 109, in singleGlobalStep
+    self.doCurrentAssignment(tempDict)
+  File "/home/harsha/PycharmProjects/griaFix/Source/Algorithms/GRIA.py", line 84, in doCurrentAssignment
+    self.currentDestinationToSourceMapping[d] = self.pickMinSource(d, sourceDict)
+  File "/home/harsha/PycharmProjects/griaFix/Source/Algorithms/GRIA.py", line 70, in pickMinSource
+    if  self.distanceMap[s][destination] < min:
+KeyboardInterrupt
+
+Process finished with exit code 1
+

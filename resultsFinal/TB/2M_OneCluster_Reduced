@@ -1,0 +1,331 @@
+
+k = 2 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+Let the TB GAMES BEGIN!!!! 
+
+Runs = 0
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 11172173.954710018Iteratiobns = 5
+Runs = 1
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 11172173.954710018Iteratiobns = 4
+Runs = 2
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 11172173.954710018Iteratiobns = 7
+Runs = 3
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 11172173.954710018Iteratiobns = 4
+Runs = 4
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 11172173.954710018Iteratiobns = 5
+CREATE TABLE synthetic.pop_2000000_OneCluster_sources_TB_k_2_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Final Solution, cost = 11172173.954710018
+Time for execution for k: 2 = 8.634804790001363
+
+
+k = 4 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+Let the TB GAMES BEGIN!!!! 
+
+Runs = 0
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 8313584.119166163Iteratiobns = 9
+Runs = 1
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 8313584.119166163Iteratiobns = 9
+Runs = 2
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 8313584.119166163Iteratiobns = 7
+Runs = 3
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 8313584.119166163Iteratiobns = 13
+Runs = 4
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 8313476.268577107Iteratiobns = 9
+CREATE TABLE synthetic.pop_2000000_OneCluster_sources_TB_k_4_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Final Solution, cost = 8313476.268577107
+Time for execution for k: 4 = 36.82667668638751
+
+
+k = 8 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+Let the TB GAMES BEGIN!!!! 
+
+Runs = 0
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 6125727.429618421Iteratiobns = 10
+Runs = 1
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 6099446.259644701Iteratiobns = 18
+Runs = 2
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 6116198.392367524Iteratiobns = 15
+Runs = 3
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 6162449.474218586Iteratiobns = 15
+Runs = 4
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 6133625.708405273Iteratiobns = 20
+CREATE TABLE synthetic.pop_2000000_OneCluster_sources_TB_k_8_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Final Solution, cost = 6099446.259644701
+Time for execution for k: 8 = 172.74461014484987
+
+
+k = 16 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+Let the TB GAMES BEGIN!!!! 
+
+Runs = 0
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 4174054.0720191547Iteratiobns = 22
+Runs = 1
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 4142867.09828935Iteratiobns = 23
+Runs = 2
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 4171097.7057053805Iteratiobns = 19
+Runs = 3
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 4166932.06301749Iteratiobns = 22
+Runs = 4
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 4168674.1537694465Iteratiobns = 33
+CREATE TABLE synthetic.pop_2000000_OneCluster_sources_TB_k_16_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Final Solution, cost = 4142867.09828935
+Time for execution for k: 16 = 835.2967968062497
+
+
+k = 32 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+Let the TB GAMES BEGIN!!!! 
+
+Runs = 0
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 2904285.3123955126Iteratiobns = 37
+Runs = 1
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 2910106.909117304Iteratiobns = 38
+Runs = 2
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 2878333.790625381Iteratiobns = 35
+Runs = 3
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 2941805.301466118Iteratiobns = 41
+Runs = 4
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 2885215.168202925Iteratiobns = 39
+CREATE TABLE synthetic.pop_2000000_OneCluster_sources_TB_k_32_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Final Solution, cost = 2878333.790625381
+Time for execution for k: 32 = 4472.8817738442685
+
+
+k = 64 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+Let the TB GAMES BEGIN!!!! 
+
+Runs = 0
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 1999810.411457441Iteratiobns = 62
+Runs = 1
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 2016121.9762088791Iteratiobns = 53
+Runs = 2
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 1988136.7710294852Iteratiobns = 49
+Runs = 3
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 1989776.503099571Iteratiobns = 62
+Runs = 4
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 2003949.6898760807Iteratiobns = 52
+CREATE TABLE synthetic.pop_2000000_OneCluster_sources_TB_k_64_w  (destinationid integer, sourceid integer, des_centroid geometry(POINT, 2163), source_centroid geometry(POINT, 2163))
+Final Solution, cost = 1988136.7710294852
+Time for execution for k: 64 = 21791.504938571994
+
+
+k = 128 
+
+
+
+
+Use Me!
+Use Me!
+Use Me!
+Let the TB GAMES BEGIN!!!! 
+
+Runs = 0
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 1222277.0853158107Iteratiobns = 95
+Runs = 1
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+ Ending Program==>  No improvement possible 
+ cost = 1227508.678497499Iteratiobns = 84
+Runs = 2
+Use Me!
+Getting all synthetic data destination data
+ SELECT id as destinationid, ST_Y(centroid ) as y ,  ST_X(centroid ) x, demand as demand FROM synthetic.Pop_2000000_OneCluster_destinations limit 480 
+
+
