@@ -1,8 +1,8 @@
 Database:
-          Name: webreplan_acs16
-          Host:   replan-server.unt.edu
-          User: replan_user
-          Password: replan_rack_server
+          Name: <DBNAME>
+          Host:  <DBHOST>
+          User: <DBUSER>
+          Password: <DBPASSWORD>
 #SchemaName: largescale
 SchemaName: regions_lowcal
 WorkingCopySchemaName: regions_lowcal
